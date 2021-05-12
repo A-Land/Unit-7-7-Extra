@@ -13,18 +13,18 @@ function calculate () {
   secondNum = parseInt(secondNum)
   answer = 0
   negative = false
-  
+
   if (firstNum < 0) {
     negative = !negative
     firstNum = Math.abs(firstNum)
   }
-  if (secondNum < 0) { 
+  if (secondNum < 0) {
     negative = !negative
     secondNum = Math.abs(secondNum)
   }
 
   for (counter = 0; counter < firstNum; counter++) {
-   answer = answer + secondNum
+    answer = answer + secondNum
   }
 
   if (negative) {
